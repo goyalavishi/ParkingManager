@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ManagerParkingData.ManagerId.ValidateManager">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:text="Do you have a unique manager ID ?"
+        android:textColor="#000000"
+        android:typeface="monospace"
+        android:textSize="17sp" />
+
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:id="@+id/registered">
+
+
+        <RadioButton
+            android:id="@+id/registered_yes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_weight="1"
+            android:onClick="onRadioButtonClicked"
+            android:paddingRight="50sp"
+            android:text="Yes"
+            android:textSize="18sp"
+            tools:ignore="OnClick" />
+
+
+        <RadioButton
+            android:id="@+id/registered_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="80dp"
+            android:layout_weight="1"
+            android:onClick="onRadioButtonClicked"
+            android:text="No"
+            android:textSize="18sp"
+            tools:ignore="OnClick" />
+
+
+    </RadioGroup>
+
+
+    <EditText
+        android:id="@+id/manager_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Unique Manager ID"
+        android:layout_marginTop="100dp"
+        android:layout_below="@id/registered"
+        android:visibility="gone"
+        android:background="@drawable/boundary2"
+        android:elevation="10sp"/>
+
+    <Button
+        android:id="@+id/verify"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/inputbackground"
+        android:layout_below="@id/manager_id"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:text="verify"
+        android:visibility="gone"/>
+
+
+    <TextView
+        android:id="@+id/contact_you_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="300dp"
+        android:text="We will contact you soon..."
+        android:textColor="@color/themeColor"
+        android:textSize="30dp"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/contact_you_yes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="200dp"
+        android:text="Unique Manager ID did not match\nWe will contact you soon..."
+        android:textColor="@color/themeColor"
+        android:visibility="gone"
+        android:textSize="24dp" />
+
+
+
+</RelativeLayout>

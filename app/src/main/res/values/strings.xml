@@ -1,0 +1,123 @@
+<resources>
+    <string name="app_name">ParkingManager</string>
+
+    <string name="title_activity_cur_loc">Map</string>
+    <string name="signup">Sign Up</string>
+    <string name="signin">Sign In</string>
+    <string name="login">Login</string>
+    <string name="facebook_app_id">1007637716087236</string>
+    <string name="fb_login_protocol_scheme">fb1007637716087236</string>
+    <string name="username">Email address or Username</string>
+    <string name="pwd">Password</string>
+    <string name="line">---------------------------- OR -----------------------------</string>
+    <string name="emailhint">Email address</string>
+    <string name="passhint">Password</string>
+    <string name="fullName">Full Name</string>
+    <string name="mobileNumber">Mobile Number</string>
+    <string name="email">Email address</string>
+    <string name="password">Enter Password</string>
+    <string name="confirmPassword">Confirm Password</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="terms_conditions">I agree to all the Terms and Conditions.</string>
+    <string name="already_user">Already have Account? Login here.</string>
+    <string name="url">url</string>
+    <string name="parking_name">parking_name</string>
+    <string name="parking_type">parking_type</string>
+    <string name="parking_manager">Are you a parking lot manager/contractor?</string>
+
+    <string name="tab_1">Label 1</string>
+    <string name="tab_2">Label 2</string>
+    <string name="tab_3">Label 3</string>
+    <string name="tab_4">Label 4</string>
+    <string name="tab_5">Label 5</string>
+
+
+    <string name="menu_1">Revenue</string>
+    <string name="menu_2">History</string>
+    <string name="menu_3">Hero</string>
+    <string name="menu_4">Chat</string>
+    <string name="menu_5">Me</string>
+    <string name="menu_6">Calendar</string>
+    <string name="menu_7">Camera</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_parking__lots">Parking_Lots</string>
+    <string name="skip">SKIP</string>
+    <string name="title_activity_maps">Map</string>
+
+
+    <string name="search_parking_lots_button">Search Parking Lots</string>
+    <string name="share">SHARE</string>
+    <string name="directions">DIRECTIONS</string>
+    <string name="parkingimage">Image</string>
+    <string name="navigate">Navigate</string>
+    <string name="popup">Welcome to the Parking Lot</string>
+    <string name="popup2">Thank You for Visiting Us</string>
+    <string name="parkingslot">Parking Slot</string>
+    <string name="park">Park Your Car at</string>
+    <string name="call">Call</string>
+    <string name="address">Address</string>
+
+
+    <string name="add_car_hint">Your license plate no</string>
+    <string name="capture_car">Capture license plate no</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="costpopup">You Have To Pay</string>
+    <string name="cost">Cost</string>
+    <string name="time">Time</string>
+
+    <string name="please_enter_your_car_s_br_license_plate_number">"Please Enter Your Car\'s License \nPlate Number"</string>
+
+    <string name="status">The car with license plate number DL8CAD0381 has enetred</string>
+    <string name="info">Get More Information</string>
+    <string name="start">Start</string>
+    <string name="end">End</string>
+
+    <string name="user">USER</string>
+    <string name="manager">MANAGER</string>
+    <string name="manager_id">Manager ID</string>
+
+    <string name="register">Not a user? Register!</string>
+    <string name="managerid">Do You Have A Manager ID ?</string>
+
+
+    <string name="current_date">June, 2019</string>
+    <string name="add_event">ADD CALENDAR EVENT</string>
+    <string name="sun">SUN</string>
+    <string name="mon">MON</string>
+    <string name="tue">TUE</string>
+    <string name="wed">WED</string>
+    <string name="thu">THU</string>
+    <string name="fri">FRI</string>
+    <string name="sat">SAT</string>
+    <string name="last_date">30</string>
+
+
+    <string name="ok">OK</string>
+    <string name="permission_camera_rationale">Access to the camera is needed for detection</string>
+    <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
+    <string name="low_storage_error">Ocr dependencies cannot be downloaded due to low device storage</string>
+    <string name="ocr_header">Click &quot;Detect Text&quot; to detect text</string>
+    <string name="read_text">Detect Text</string>
+    <string name="auto_focus">Auto Focus</string>
+    <string name="use_flash">Use Flash</string>
+    <string name="ocr_success">Text read successfully</string>
+    <string name="ocr_failure">No text captured</string>
+    <string name="ocr_error">"Error reading text: %1$s"</string>
+    <string name="send_email_text">Send Email</string>
+    <string name="mail_intent_chooser_text">Send mail...</string>
+    <string name="no_email_client_error">There are no email clients installed.</string>
+
+
+    <string name="mini">MINI</string>
+    <string name="sedan">SEDAN</string>
+    <string name="suv">SUV</string>
+    <string name="bike">BIKE</string>
+
+    <string name="no_of_cars">Number of Cars</string>
+    <string name="cars_entered">69</string>
+    <string name="revenue">Todays\'s Revenue</string>
+    <string name="revenue_collection">3000</string>
+</resources>

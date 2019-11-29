@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <item
+            android:title="@string/menu_1"
+            android:icon="@drawable/ic_money" />
+
+        <item
+            android:title="@string/menu_6"
+            android:icon="@drawable/ic_calendar" />
+
+        <!--<item
+            android:title="@string/menu_7"
+            android:icon="@drawable/ic_camera" />-->
+
+
+
+</menu>

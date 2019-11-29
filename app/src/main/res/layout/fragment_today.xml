@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_height="130dp"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:paddingRight="10dp"
+        android:id="@+id/registerManager"
+        android:paddingLeft="10dp"
+        android:background="@color/themeColor"
+        android:layout_width="match_parent"
+        android:elevation="10dp">
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:weightSum="1"
+                android:orientation="vertical"
+                android:layout_marginTop="15sp"
+                android:layout_marginStart="15sp"
+                android:layout_marginEnd="20dp">
+                
+                <io.netopen.hotbitmapgg.library.view.RingProgressBar
+                    android:id="@+id/today_revenue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:max="100"
+                    app:ringColor="@color/lightThemeColor"
+                    app:ringProgressColor="@color/white"
+                    app:ringWidth="10dp"
+                    app:style="STROKE"
+                    app:textColor="@color/white"
+                    app:textIsShow="true"
+                    app:textSize="16sp"
+                    />
+                
+                
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10sp"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/parking_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="marquee"
+                android:layout_weight="1"
+                android:layout_marginTop="30dp"
+                android:gravity="center_horizontal"
+                android:text="Today's Revenue "
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:id="@+id/revenue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="marquee"
+                android:layout_marginTop="8dp"
+                android:layout_weight="1"
+                android:layout_marginStart="10dp"
+                android:textStyle="bold"
+                android:singleLine="true"
+                android:gravity="center_horizontal"
+                android:text=""
+                android:textColor="@color/white"
+                android:textSize="30sp" />
+
+        </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/registerManager"
+        android:id="@+id/search_parkingLot"
+        android:hint="Search Parking Lot"
+        android:drawableLeft="@drawable/search"
+        android:layout_margin="20dp"
+        android:backgroundTint="@color/themeColor"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/todayrecycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/search_parkingLot"
+        android:layout_marginBottom="10dp">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+</RelativeLayout>

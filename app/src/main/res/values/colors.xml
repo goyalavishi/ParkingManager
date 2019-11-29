@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="themeColor">#008080</color>
+    <color name="mediumThemeColor">#C8008080</color>
+    <color name="lightThemeColor">#83008080 </color>
+    <color name="color_notification_back">#ffcd33</color>
+    <color name="color_notification_text">#3E4757</color>
+    <color name="shadow_color">#FFB9D7D7</color>
+    <color name="TransparentGrey">#7F000000</color>
+    <color name="Silver">#C0C0C0</color>
+    <color name="gray">#808080</color>
+    ACA5A5
+
+    <array name="tab_colors">
+        <item name="tab_1">#008080</item>
+        <item name="tab_2">#008080</item>
+        <item name="tab_3">#008080</item>
+        <item name="tab_4">#008080</item>
+        <item name="tab_5">#008080</item>
+    </array>
+
+
+    <color name="white">#ffffff</color>
+</resources>

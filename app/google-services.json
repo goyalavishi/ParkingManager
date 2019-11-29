@@ -1,0 +1,159 @@
+{
+  "project_info": {
+    "project_number": "526657393644",
+    "firebase_url": "https://parkingherodev-28525.firebaseio.com",
+    "project_id": "parkingherodev-28525",
+    "storage_bucket": "parkingherodev-28525.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:526657393644:android:bce91d26872b86259266c9",
+        "android_client_info": {
+          "package_name": "com.avishigoyal.parkingherooperator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "526657393644-o4bvmdv7jtuj5hk04qleke4bpolb3bml.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.avishigoyal.parkingherooperator",
+            "certificate_hash": "f32af7edfcd2ac3c34a96a64f2fb38d2fdcc12e6"
+          }
+        },
+        {
+          "client_id": "526657393644-8tpu62jkuu1k857n4jo2ohkg2hqcboj4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyYdS-9YvARTXppAVpWdMFK46-h8Unmzs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "526657393644-8tpu62jkuu1k857n4jo2ohkg2hqcboj4.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "526657393644-s9k81hp9kfr8kbr2d0r8t5f4onnjff12.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ParkingHero"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:526657393644:android:c626469d065aa84a9266c9",
+        "android_client_info": {
+          "package_name": "com.example.avishigoyal.parkinghero"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "526657393644-9368qvtvi860qogfvob7t7a1nkii4lbs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.avishigoyal.parkinghero",
+            "certificate_hash": "455adef3876b9a6a8b093555561a7e561bf3bd13"
+          }
+        },
+        {
+          "client_id": "526657393644-8tpu62jkuu1k857n4jo2ohkg2hqcboj4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyYdS-9YvARTXppAVpWdMFK46-h8Unmzs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "526657393644-8tpu62jkuu1k857n4jo2ohkg2hqcboj4.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "526657393644-s9k81hp9kfr8kbr2d0r8t5f4onnjff12.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ParkingHero"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:526657393644:android:0521b9e64adb20ed9266c9",
+        "android_client_info": {
+          "package_name": "com.example.lavannyagoyal.parkingmanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "526657393644-panq5ujt43f8gjdel6gfb54t200smu16.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lavannyagoyal.parkingmanager",
+            "certificate_hash": "455adef3876b9a6a8b093555561a7e561bf3bd13"
+          }
+        },
+        {
+          "client_id": "526657393644-mmcd84ohm1ua0kji26vlaisgoh32kg39.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lavannyagoyal.parkingmanager",
+            "certificate_hash": "0067bb8c3c154ed0fabb500ff9f6af8cc35c07c2"
+          }
+        },
+        {
+          "client_id": "526657393644-i637ln3n9r94g1466ofhqmtsf5u4a198.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lavannyagoyal.parkingmanager",
+            "certificate_hash": "f32af7edfcd2ac3c34a96a64f2fb38d2fdcc12e6"
+          }
+        },
+        {
+          "client_id": "526657393644-8tpu62jkuu1k857n4jo2ohkg2hqcboj4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyYdS-9YvARTXppAVpWdMFK46-h8Unmzs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "526657393644-8tpu62jkuu1k857n4jo2ohkg2hqcboj4.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "526657393644-s9k81hp9kfr8kbr2d0r8t5f4onnjff12.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ParkingHero"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

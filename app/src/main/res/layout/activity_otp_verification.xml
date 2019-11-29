@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ManagerParkingData.Register.OTP_verification">
+
+    <TextView
+        android:id="@+id/veri_code_head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor= "#000"
+        android:layout_margin="20dp"
+        android:text="Verification Code" />
+
+    <TextView
+        android:id="@+id/veri_code_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/veri_code_head"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Please enter the verification code sent to " />
+
+    <EditText
+        android:id="@+id/veri_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_below="@id/veri_code_details"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="e.g. 123456"
+        android:background="@drawable/boundary2"
+        android:drawableLeft="@drawable/smartphone"
+        android:drawablePadding="10dp"
+        android:padding="10dp"
+        android:elevation="10dp"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/verify_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="verify"
+        android:textColor="@color/white"
+        android:layout_margin="20dp"
+        android:layout_below="@id/veri_code"
+        android:background="@drawable/inputbackground"
+        tools:ignore="NotSibling" />
+
+
+    <Button
+        android:id="@+id/resend_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="resend otp"
+        android:textColor="@color/white"
+        android:layout_margin="20dp"
+        android:layout_below="@id/verify_btn"
+        android:background="@drawable/inputbackground"
+        tools:ignore="NotSibling" />
+</RelativeLayout>

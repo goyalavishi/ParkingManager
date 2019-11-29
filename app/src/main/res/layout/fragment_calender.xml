@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal">
+
+
+  <androidx.recyclerview.widget.RecyclerView
+      xmlns:android="http://schemas.android.com/apk/res/android"
+      android:id="@+id/calendarrecyclerview"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:visibility="visible"
+      android:layout_alignParentTop="true"
+      android:scrollbars="horizontal"
+      android:clickable="true"
+      android:layout_marginLeft="2dp"
+      android:background="@drawable/boundary3"
+      android:elevation="20dp"
+      android:layout_marginRight="2dp" />
+
+  <com.example.lavannyagoyal.parkingmanager.ManagerParkingData.Calendar.CustomCalendarView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/custom_calendar_view"
+      android:layout_below="@+id/calendarrecyclerview"
+      android:layout_marginTop="20dp"
+      android:layout_marginBottom="5dp"
+      android:layout_marginStart="5dp"
+      android:layout_marginEnd="5dp">
+
+  </com.example.lavannyagoyal.parkingmanager.ManagerParkingData.Calendar.CustomCalendarView>
+
+
+</RelativeLayout>
